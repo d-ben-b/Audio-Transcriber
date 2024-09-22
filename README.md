@@ -27,7 +27,7 @@ To install Audio-Transcriber, follow these steps:
 1. **Clone the repository** (or download the ZIP file and extract it):
 
    ```bash
-   git clone https://yourrepositorylink.com/AudioTranscriber.git
+   git clone https://github.com/d-ben-b/Audio-Transcriber.git
    cd AudioTranscriber
 
 2. Install dependencies:
