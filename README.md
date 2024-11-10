@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Audio-Transcriber
 
 Audio-Transcriber is a user-friendly desktop application designed to transcribe audio files using the Whisper model. It features a simple graphical interface built with tkinter, allowing users to either record audio directly or transcribe existing audio files.
@@ -17,6 +19,9 @@ Audio-Transcriber is a user-friendly desktop application designed to transcribe 
 - Whisper
 - pyaudio
 - tkinter (should be included with Python if not you can install using your system's package manager)
+- pip install yt-dlp
+- pip install openai-whisper
+- pip install pyaudio
 
 Before installing Audio-Transcriber, ensure you have Python installed on your system. You can download it from [Python.org](https://www.python.org/downloads/).
 
@@ -30,14 +35,23 @@ To install Audio-Transcriber, follow these steps:
    git clone https://github.com/d-ben-b/Audio-Transcriber.git
    cd AudioTranscriber
 
+   ```
+
 2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
 
 3. Run the setup script:
-    ```bash
-    python setup.py install
+
+   ```bash
+   python setup.py install
+
+   ```
 
 4. Launch the application:
-    ```bash
-    audio-transcriber
+   ```bash
+   audio-transcriber
+   ```
